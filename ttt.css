@@ -1,7 +1,12 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	font-family: Raleway;
 	margin: 0;
 	padding: 0;
+	background-color: #f7f9fc;
 }
 
 .container {
@@ -13,40 +18,84 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
+.displaybar {
+	height: 30px;
+	margin-top: 0;
+	background-color: #232323;
+	padding: 0;
+	margin-bottom: 50px;
 	text-align: center;
 }
 
-h2 {
+.bottombar {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #232323;
+	padding: 0;
 	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	width: 100%;
+	color: white;
+	background-color: steelblue;
+	margin: 0;
+	font-size: 5em;
+	padding: 20px 0;
+}
+
+h2 {
+	display: inline-block;
+	color: white;
+	margin: 0 auto;
+}
+
+#reset {
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	outline: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	color: white;
+	font-size: inherit;
+	margin: 0 auto;
+	transition: all .3s;
+}
+
+#reset:hover {
+	background-color: white;
+	color: black;
 }
 
 .item {
 	font-size: 14em;
 	text-align: center;
-	
 }
 
-.two {
+.item:nth-child(2) {
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 }
 
-.four {
+.item:nth-child(4) {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
 
-.five {
+.item:nth-child(5) {
 	border: 2px solid black;
 }
 
-.six {
+.item:nth-child(6) {
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
 
-.eight {
+.item:nth-child(8) {
 	border-left: 2px solid black;
 	border-right: 2px solid black;
 }
