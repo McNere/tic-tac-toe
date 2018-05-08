@@ -1,0 +1,52 @@
+body {
+	font-family: Raleway;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	width: 800px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.item {
+	font-size: 14em;
+	text-align: center;
+	
+}
+
+.two {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.four {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.five {
+	border: 2px solid black;
+}
+
+.six {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.eight {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
